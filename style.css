@@ -33,12 +33,19 @@ Version: 1.0
 */
 
 /*============Glogbal Style================ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 html,
 body {
     height: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
 }
+
 
 p {
    
@@ -2722,7 +2729,7 @@ display: inline-block;
 
 }
 h1,h2,h3,h4,h5,b{
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 
@@ -2785,6 +2792,73 @@ h1,h2,h3,h4,h5,b{
     text-align: center;
     padding:20px;
 }
+
+
+/* why choose us div */
+.why-choose-us-parent div div{
+    /* border:1px solid black; */
+    margin-top: 10px;
+    border:1px solid transparent;
+  
+    
+}
+
+
+
+.why-choose-us-parent div div h4{
+    color:white;
+    
+}
+.feature-1{
+    background: #ffc900;
+    
+   
+}
+.feature-1:hover{
+border:1px solid #ffc900;
+background-color: transparent;
+
+}
+.feature-1:hover h4{
+    color:black !important;
+}
+.feature-2{
+background-color:#2EB67D ;
+}
+
+.feature-2:hover{
+    border:1px solid #2EB67D;
+    background-color: transparent;
+
+}
+.feature-2:hover h4{
+    color:black !important;
+}
+.feature-3{
+    background-color: #007bff;
+}
+
+.feature-3:hover{
+    border:1px solid #007bff;
+    background-color: transparent;
+
+}
+.feature-3:hover h4{
+    color:black !important;
+}
+.feature-4{
+    background-color: rgba(255, 0, 0, 0.734) ;
+}
+
+.feature-4:hover{
+    border:1px solid rgba(255, 0, 0, 0.734);
+    background-color: transparent;
+
+}
+.feature-4:hover h4{
+    color:black !important;
+}
+
 
 
 
@@ -2941,8 +3015,12 @@ color:black;
 .navbar-nav{
     position:relative;
     z-index: 1200;
+   
     margin-top: 0px !important;
 }
+/* .nav-item{
+    margin:40px 0 !important;
+} */
 .hero-aria{
 padding-top: 0px;
 }
@@ -2952,8 +3030,8 @@ padding-top: 0px;
     padding:20px;
 }
 .know-us-images{
-    text-align: justify;
-font-size:1.3rem !important;
+    text-align: left;
+font-size:1rem !important;
 line-height:1.7rem;
 margin: auto;
 }
@@ -2967,14 +3045,52 @@ margin: auto;
     margin-top: 0 !important;
    
 }
-.list-unstyled li{
+/* .list-unstyled li{
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} */
 
 .mobile-slider{
     display:block;
 }
+h1{
+    font-size: 1.7rem;
+}
+.head-subtitle{
+    font-size: 17px !important;
+    line-height: 2rem;
+
+}
+/* header..................... */
+.hero-aria, .hero-area-slids, .single-slider{
+padding-top: 0px;
+}
+.hero-aria, .hero-area-slids, .single-slider{
+    height:100% !important;
+}
+
+/* whats app image............... */
+.whats-app-contact img{
+height:40px !important;
+width:40px !important;
+}
+.mb-4 h3{
+font-size: 16px;
+}
+
+/* course-cards */
+.inner-row .col-lg-4{
+    margin-bottom: 10px;
+}
+h2{
+    font-size:1.6rem;
+}
+
+.why-best-points p{
+font-size:16px;
+}
+
+
 
 
 }
